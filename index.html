@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bella Beauty Salon — Hair, Nails &amp; Skin</title>
+  <meta name="description" content="Bella Beauty Salon offers haircuts, coloring, facials, nails and bridal makeup. Book an appointment today." />
+  <meta property="og:title" content="Bella Beauty Salon — Hair, Nails &amp; Skin" />
+  <meta property="og:description" content="Bella Beauty Salon offers haircuts, coloring, facials, nails and bridal makeup. Book an appointment today." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Bella Beauty Salon</a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-cta" href="booking.html">Book Appointment</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="hero-img" src="hero.jpg" alt="Bella Beauty Salon interior" />
+      <div class="hero-shade"></div>
+      <div class="hero-copy wrap">
+        <p class="eyebrow">Hair · Nails · Skin · Bridal</p>
+        <h1>Bella Beauty Salon</h1>
+        <p class="lede">Where beauty meets elegance. Look good, feel beautiful.</p>
+        <a class="btn" href="booking.html">Book Appointment</a>
+        <a class="btn ghost" href="services.html">View Services</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">Popular Services</h2>
+        <p class="section-sub">Every service starts with a free consultation.</p>
+        <div class="grid">
+          <article class="card reveal">
+            <h3>Haircut &amp; Styling</h3>
+            <p>Wash, cut and finish by our senior stylists.</p>
+            <p class="price">From ₹499</p>
+          </article>
+          <article class="card reveal">
+            <h3>Facials &amp; Skin Care</h3>
+            <p>Deep cleansing, brightening and anti-ageing facials.</p>
+            <p class="price">From ₹899</p>
+          </article>
+          <article class="card reveal">
+            <h3>Bridal Makeup</h3>
+            <p>HD and airbrush makeup with draping and hairstyling.</p>
+            <p class="price">From ₹9,999</p>
+          </article>
+        </div>
+        <p class="center-link"><a class="btn outline" href="services.html">See all services</a></p>
+      </div>
+    </section>
+
+    <section class="section about">
+      <div class="wrap narrow-text reveal">
+        <h2 class="section-title">Why Bella?</h2>
+        <ul class="ticks centered">
+          <li>Certified stylists and beauticians</li>
+          <li>Sanitised tools for every client</li>
+          <li>Premium, cruelty-free products</li>
+        </ul>
+        <p class="center-link"><a href="about.html">Learn more about us &rarr;</a></p>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <h2>Ready for a fresh look?</h2>
+        <p>Appointments get priority. Walk-ins are always welcome.</p>
+        <a class="btn light" href="booking.html">Book Appointment</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="brand small">Bella Beauty Salon</p>
+        <p>Main Road, Near Market Square<br />Open every day</p>
+      </div>
+      <div>
+        <p class="foot-title">Explore</p>
+        <p><a href="services.html">Services</a><br /><a href="booking.html">Book Appointment</a><br /><a href="about.html">About</a> · <a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <p class="foot-title">Contact</p>
+        <p><a href="tel:+919876543210">+91 98765 43210</a><br /><a href="mailto:hello@bellabeauty.example">hello@bellabeauty.example</a></p>
+      </div>
+      <div>
+        <p class="foot-title">Hours</p>
+        <p>Mon–Fri 10 AM – 8 PM<br />Sat 9 AM – 9 PM · Sun 10 AM – 6 PM</p>
+      </div>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> Bella Beauty Salon · All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
